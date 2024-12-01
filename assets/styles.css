@@ -1,0 +1,181 @@
+
+#pressure_gauge{
+    height: 28vh;
+    width : 25vh;
+}
+
+#velocity_display{
+    height: 17vh;
+    width : 25vh;
+    margin-bottom: 8px;
+}
+
+#temp_chart, #pressure_chart{
+    padding: 5px;
+    background-color: #0f1d39ff;
+    margin-bottom: 0px;
+}
+
+.item-content{
+    background-color: #0f1d39ff;
+    overflow: hidden;
+}
+
+
+#light_title, #velocity_title, #pressure_title, #accelerometer_title{
+    margin-bottom: 0px;
+    margin-top: 5px;
+    color:white;
+}
+
+#accelerometer_title{
+    padding-top: 20px;
+}
+
+#thermometer_title {  
+    margin-top: 5px;
+    margin-bottom: 0px;
+    color : white;
+}
+
+
+h3{
+    font-size: 18px;
+    font-weight: normal;
+}
+
+h2{
+    color : white;
+    text-align: center;
+    margin-bottom: 0px;
+    font-size: 16px;
+    margin-top: 2px;
+}
+
+h1{
+    text-align: center;
+    font-size: 20px;
+    color : white;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+#sun_emoji{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+#sidebar{
+    position: fixed;
+    top : 0;
+    left : 0;
+    bottom : 0;
+    width : 150px;
+    padding : 2rem 1rem;
+    background-color: #0f1d39ff;
+}
+
+#sidebar_title {
+    font-weight: 600;
+    color: white;
+    font-size: 24px;
+    margin-bottom: 30px;
+    align-content: center;
+    text-align: center;
+}
+
+
+#save_data_button{
+    margin: 10px;
+    border-radius: 10px; 
+    background-color: #61c3dfff; 
+    color: white; 
+    border: none;
+    padding: 2px 10px;  
+    font-size: 15px;
+    font-weight: 600; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease, transform 0.1s ease;
+    text-transform: none;
+}
+
+#save_data_button:hover {
+    background-color: rgb(39, 92, 106); 
+}
+
+.daq-thermometer--light__tick > .tick{
+    display : none;
+}
+
+.daq-thermometer--light__tick > .label{
+    display : none;
+}
+
+body, .item-top {
+    background-color:#10192aff
+}
+
+#thermometer_div, #pressure_div, #velocity_div , #light_div , #accelerometer_div{
+    background-color: #0f1d39ff;
+}
+
+.dash-debug-menu__outer, .dash-debug-menu {
+    display: none !important;
+}
+
+#yaw_div{
+    -webkit-text-stroke: 0.5px black;
+    background-color: #b463b1;
+}
+
+#roll_div{
+    background-color: #fec258ff;
+    -webkit-text-stroke: 0.5px black;
+}
+
+#pitch_div{
+    -webkit-text-stroke: 0.5px black;
+    background-color: #db154cff;
+}
+
+#temperature_title, #pressure_chart_title{
+    margin-bottom:0px;
+    margin-top: 2px;
+    font-size: 14px;
+}
+
+.sc-cvbbAY.kBtrYf{
+    border-radius: 100px;
+    width:25px;
+    height:25px;
+}
+
+.sc-gqjmRU.kyfPNk{
+    margin-top: 15px;
+    font-size: 15px;
+    margin-bottom: 0px;
+}
+
+.sc-gZMcBi.hZkeSi{
+    margin-top: 25px;
+}
+
+.sc-jWBwVP.kkhjjT{
+    height:40px;
+}
+
+.sc-gqjmRU.btQwfG{
+    font-size: 12px;
+}
+
+.sc-VigVT.dHABtm{
+    font-size: 6px;
+}
+
+#accelerometer_title{
+    margin-top: 1px;
+}
+
+.sc-iwsKbI.bEszOO{
+    margin-top:0px;
+    margin-bottom: 0px;
+}
